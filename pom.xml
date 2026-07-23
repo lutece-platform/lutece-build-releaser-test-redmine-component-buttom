@@ -34,6 +34,7 @@
         </repository>
     </repositories>
     <dependencies>
+        
         <dependency>
             <groupId>fr.paris.lutece</groupId>
             <artifactId>lutece-core</artifactId>
