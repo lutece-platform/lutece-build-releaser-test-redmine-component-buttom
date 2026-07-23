@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>lutece-global-pom</artifactId>
+        <groupId>fr.paris.lutece.tools</groupId>
+        <version>7.0.2</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fr.paris.lutece.plugins</groupId>
+    <artifactId>releaser-test-redmine-component-buttom</artifactId>
+    <packaging>lutece-plugin</packaging>
+    <name>Lutece releaser test</name>
+    <version>6.2.3-SNAPSHOT</version>
+    <scm>
+        <connection>scm:git:https://github.com/lutece-platform/lutece-build-releaser-test-redmine-component-buttom.git</connection>
+        <developerConnection>scm:git:https://github.com/lutece-platform/lutece-build-releaser-test-redmine-component-buttom.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/lutece-platform/lutece-build-releaser-test-redmine-component-buttom.git</url>
+    </scm>
+    <repositories>
+        <repository>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <id>luteceSnapshot</id>
+            <name>luteceSnapshot</name>
+            <url>https://dev.lutece.paris.fr/snapshot_repository</url>
+        </repository>
+        <repository>
+            <id>lutece</id>
+            <name>luteceRepository</name>
+            <url>https://dev.lutece.paris.fr/maven_repository</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>fr.paris.lutece</groupId>
+            <artifactId>lutece-core</artifactId>
+            <version>[5.0.0,7.9.9)</version>
+            <type>lutece-core</type>
+        </dependency>
+        <dependency>
+            <groupId>jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+    </dependencies>
+    <properties>
+        <componentName>releaser test redmine component buttom</componentName>
+    </properties>
+</project>
