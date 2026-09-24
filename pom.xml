@@ -10,7 +10,7 @@
     <artifactId>releaser-test-redmine-component-buttom</artifactId>
     <packaging>lutece-plugin</packaging>
     <name>Lutece releaser test</name>
-    <version>1.0.2-beta-01</version>
+    <version>1.0.2</version>
     <scm>
         <connection>scm:git:https://github.com/lutece-platform/lutece-build-releaser-test-redmine-component-buttom.git</connection>
         <developerConnection>scm:git:https://github.com/lutece-platform/lutece-build-releaser-test-redmine-component-buttom.git</developerConnection>
@@ -34,7 +34,6 @@
         </repository>
     </repositories>
     <dependencies>
-        
         <dependency>
             <groupId>fr.paris.lutece</groupId>
             <artifactId>lutece-core</artifactId>
