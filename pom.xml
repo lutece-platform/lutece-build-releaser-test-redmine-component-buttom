@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
         <artifactId>lutece-global-pom</artifactId>
         <groupId>fr.paris.lutece.tools</groupId>
@@ -10,7 +10,7 @@
     <artifactId>releaser-test-redmine-component-buttom</artifactId>
     <packaging>lutece-plugin</packaging>
     <name>Lutece releaser test</name>
-    <version>1.0.3-beta-01</version>
+    <version>1.0.3</version>
     <scm>
         <connection>scm:git:https://github.com/lutece-platform/lutece-build-releaser-test-redmine-component-buttom.git</connection>
         <developerConnection>scm:git:https://github.com/lutece-platform/lutece-build-releaser-test-redmine-component-buttom.git</developerConnection>
