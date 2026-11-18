@@ -6,7 +6,7 @@
     <installation/>
     <changes/>
     <user-guide/>
-    <description>releasertest.plugin.description</description>
+    <description>releasertest.plugin.description.v8</description>
     <provider>releasertest.plugin.provider</provider>
     <provider-url>http://lutece.paris.fr</provider-url>
     <icon-url>images/admin/skin/feature_default_icon.png</icon-url>
